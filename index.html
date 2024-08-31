@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-   <title>First Blog</title> 
+   <title>First Blog</title>
+   <link rel="stylesheet" href="index.css">
+   <script src="index.js" defer></script>
 </head>
-<div>
-    <input type="text" name="username" placeholder="username" required>
-    <input type="password" name="password" placeholder="username" required>
+
+<div >
+    <h1 class="center">Blog Maker:) </h1>
+<div> 
+
+<div class="form-container">
+
+    <p>email</p>
+    <input type="text" name="username" placeholder="email" required>
+    <p>password</p>
+    <input type="password" name="password" placeholder="password" required id="myInput">
+       <!-- An element to toggle between password visibility -->
+       <input type="checkbox" onclick="showPassWord()">Show Password
+
     <input type="submit" value="Login">
+ 
+
+ 
+    
+
 </div>
 
 
