@@ -10,3 +10,17 @@
     width: 50%;
     padding: 10px;
   }
+
+  input[type="text"],
+  input[type="password"] {
+      margin-bottom: 10px; /* Space below email and password fields */
+  }
+
+  input[type="checkbox"] {
+    margin-bottom: 15px; /* Space below the Show Password checkbox */
+}
+
+input[type="submit"] {
+    margin-top: 10px; /* Add some space above the Login button */
+    padding: 5px; /* Optional: Adjust padding for the button */
+}
