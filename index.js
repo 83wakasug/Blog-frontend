@@ -1,5 +1,6 @@
-function showPassWord(){
-var x = document.getElementById("myInput");
+function showPassWord(id){
+
+var x = document.getElementById(id);
 if(x.type =="password"){
     x.type = "text";
 }else{
